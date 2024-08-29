@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.team-section {
+  background-image: url(pantaiyudhi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 75px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-section2 {
+  background-image: url(kelas2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 75px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-section3 {
+  background-image: url(kue.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 75px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-title h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.team-title3 {
+  font-size: 25px;
+  color: rgb(67, 49, 187);
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+.team-card {
+  background: linear-gradient(to bottom, #ffff, #94fff1, #499ff0);
+  border-radius: 50px;
+  box-shadow: 0px 2px 5px rgba(16, 4, 106, 0.7);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.6s ease;
+  width: 300px;
+  overflow: hidden;
+}
+.team-card:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.team-card2 {
+  background: linear-gradient(to bottom, #ffff, #ffe682, #917844);
+  border-radius: 50px;
+  box-shadow: 0px 2px 5px rgba(162, 149, 149, 0.7);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.6s ease;
+  width: 300px;
+  overflow: hidden;
+}
+.team-card2:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.team-card3 {
+  background: linear-gradient(to bottom, #ffff, #f5a1b2);
+  border-radius: 50px;
+  box-shadow: 0px 2px 5px rgba(184, 12, 72, 0.7);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.6s ease;
+  width: 300px;
+  overflow: hidden;
+}
+.team-card3:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.team-image img {
+  width: 250px;
+  border-radius: 10px;
+  scale: 0.8;
+}
+.team-image {
+  align-items: center;
+  margin-top: 20px;
+}
+.sosmed a {
+  padding: 5px;
+}
+.team-detail h3 {
+  font-size: 20px;
+}
+.tabel1 {
+  background: linear-gradient(to bottom, #ffff, #ffe0a9, #f0bb8d);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.tabel1 tr {
+  background-color: #ffff;
+}
+
+.tabel1 tr:nth-child(odd) {
+  background-color: #fddcb6;
+}
+.tabel1t tr:nth-child(even) {
+  background: linear-gradient(to bottom, #ffff, #445091);
+}
+.tabel2 {
+  background: linear-gradient(to bottom, #ffff, #ffa0cf, #ff6b9d);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.tabel2 tr {
+  background-color: #ffff;
+}
+
+.tabel2 tr:nth-child(odd) {
+  background-color: #ffc1de;
+}
+/* .tabel1t tr:nth-child(even) {
+  background: linear-gradient(to bottom, #ffff, #445091);
+} */
+.tabel3 {
+  background: linear-gradient(to bottom, #ffff, #e4b9aa, #ba9773);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.tabel3 tr {
+  background-color: #ffff;
+}
+
+.tabel3 tr:nth-child(odd) {
+  background-color: #f2ddca;
+}
+.team-title1 {
+  color: #aa2050;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+table {
+  width: 100%;
+}
+tr,
+td {
+  text-align: left;
+  padding: 10px;
+}
